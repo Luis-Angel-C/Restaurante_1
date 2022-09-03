@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&display=swap');
+.our_team
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+.our_team .container__flex
+    {
+        align-items: flex-start;
+    }
+
+.our_team__title
+    {
+        font-family: 'Pacifico', cursive;
+        color: rgba(90, 218, 90, 0.993);
+        font-weight: bold;
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+.our_team__img
+    {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+.our_team__txt
+    {
+        padding: 10px;
+    
+    }
+
+@media screen and (min-width: 480px) 
+{
+    .our_team__img
+        {
+            width: 150px;
+            height: 150px;
+        }
+}
+
+@media screen and (min-width: 768px) 
+{
+    .our_team__img
+        {
+            width: 220px;
+            height: 220px;
+        }
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .our_team__img
+        {
+            width: 320px;
+            height: 320px;
+        }
+    .our_team__title
+        {
+            font-size: 2.2em;
+        }
+}
